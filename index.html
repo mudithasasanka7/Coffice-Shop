@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cozy Coffee Shop</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-logo">Cozy Coffee Shop</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#advantages">Advantages</a></li>
+        <li><a href="#disadvantages">Disadvantages</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+      <button id="toggleMode" class="dark-mode-btn">Dark Mode</button>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section id="about" class="about">
+      <div class="carousel-container">
+        <div class="carousel">
+          <img src="image1.jpg" alt="Image 1" class="carousel-image active">
+          <img src="image2.jpg" alt="Image 2" class="carousel-image">
+          <img src="image3.jpg" alt="Image 3" class="carousel-image">
+          <img src="image4.jpg" alt="Image 4" class="carousel-image">
+          <img src="image5.jpg" alt="Image 5" class="carousel-image">
+        </div>
+      </div>
+      <h2>About Sri Lankan Ceylon Coffee</h2>
+      <p>
+        Sri Lankan Ceylon Coffee is a hidden gem in the world of specialty coffee. Known for its distinct flavor
+        profile and rich cultural heritage, this coffee originates from the lush hills of Sri Lanka, where
+        ideal climatic conditions and fertile soils provide the perfect environment for coffee cultivation. 
+      </p>
+      <p>
+        At Cozy Coffee Shop, we celebrate this rich legacy by serving 100% authentic Sri Lankan Ceylon Coffee. Whether you're savoring a hot espresso or indulging in a creamy latte, you'll experience the essence of Sri Lanka in every sip.
+      </p>
+    </section>
+
+
+    <section id="menu" class="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="espresso.jpg" alt="Espresso">
+          <h3>Espresso</h3>
+          <p>A bold and rich coffee for those who love intensity.</p>
+          <p class="price">$3</p>
+        </div>
+        <div class="menu-item">
+          <img src="latte.jpg" alt="Latte">
+          <h3>Latte</h3>
+          <p>Creamy and smooth, paired with a rich espresso base.</p>
+          <p class="price">$4</p>
+        </div>
+        <div class="menu-item">
+          <img src="cappuccino.jpg" alt="Cappuccino">
+          <h3>Cappuccino</h3>
+          <p>A delightful balance of espresso, steamed milk, and foam.</p>
+          <p class="price">$4.5</p>
+        </div>
+        <div class="menu-item">
+          <img src="mocha.jpg" alt="Mocha">
+          <h3>Mocha</h3>
+          <p>A chocolate-infused coffee for a sweet, indulgent experience.</p>
+          <p class="price">$5</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-use" class="why-use">
+      <h2>Why Humans Use Coffee</h2>
+      <p>Coffee has been an integral part of human culture for centuries. It is not just a beverage but an experience that awakens the senses and fuels productivity. Many people begin their mornings with a cup of coffee to feel energized and ready to face the day. Coffee's high caffeine content helps improve focus, alertness, and memory, making it a popular choice for students and professionals alike.</p>
+      <p>Socially, coffee plays a significant role in bringing people together. Cafés and coffee shops are common gathering places for meetings, dates, and social interactions. The aroma of freshly brewed coffee creates an inviting atmosphere, making it an ideal companion for conversations and relaxation. Furthermore, coffee's antioxidant properties contribute to its health benefits, including reducing the risk of certain diseases and promoting longevity. </p>
+      <p>Whether for its taste, cultural significance, or mental and physical stimulation, coffee remains an essential part of daily life for millions worldwide.</p>
+    </section>
+
+    <section id="advantages" class="advantages">
+      <h2>Advantages of Coffee</h2>
+      <ul>
+        <li>Boosts energy and enhances mental alertness.</li>
+        <li>Rich in antioxidants, promoting overall health.</li>
+        <li>Improves physical performance during workouts.</li>
+        <li>Aids in social interactions and cultural bonding.</li>
+      </ul>
+    </section>
+
+    <section id="disadvantages" class="disadvantages">
+      <h2>Disadvantages of Coffee</h2>
+      <ul>
+        <li>Excessive consumption can cause insomnia and anxiety.</li>
+        <li>May lead to dependence and withdrawal symptoms.</li>
+        <li>Can increase heart rate and cause jitteriness in some individuals.</li>
+        <li>May lead to dehydration if consumed in large amounts.</li>
+      </ul>
+    </section>
+
+
+    <section id="contact" class="contact">
+      <table class="about-table">
+        <tr>
+          <td class="tdtable">
+          <h2>Contact Us</h2>
+            <form id="contactForm" class="contact-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+          </td>
+          <td class="tdtable">
+            <p>I am an undergraduate student specializing in Information and Communication Technology (ICT) with a strong passion for technology and software development. I am particularly focused on mobile app development, IoT, and website development. Over the years, I have gained hands-on experience working on various projects, ranging from simple Android applications to advanced IoT systems. One of my key interests is in developing applications that improve the user experience and make everyday tasks easier, such as my ongoing projects, including an AI dictionary app, a cricket score system app, and a Smart Accident Alert System integrated with fire detection and emergency services.</p>
+            <p>In addition to my academic pursuits, I am also deeply involved in creating functional hardware projects, such as my ESP32-based systems for environmental monitoring and accident detection. These projects allow me to combine my knowledge of software and hardware, making me a well-rounded developer. I enjoy learning new skills and technologies and continually seek out opportunities to apply my knowledge in real-world scenarios. My goal is to use my skills to develop innovative solutions that have a meaningful impact on users and society. In the future, I aim to pursue a career in technology, focusing on mobile and web development and IoT systems.</p>
+          </td>
+        </tr>
+    </table>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed by [Your Name] | Email: yourname@example.com | © 2024 Cozy Coffee Shop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
